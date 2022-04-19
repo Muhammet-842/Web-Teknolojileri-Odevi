@@ -68,3 +68,41 @@ button:hover{
 .nav__links li:hover .sub-menu1 ul li{
     text-align: left;
 }
+section{
+    padding: 3rem 0;
+}
+
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    color: #edf0f1;
+}
+
+img{
+    display: block;
+    max-width: 50%;
+    border-radius: 60%;    
+}
+
+.split{
+    display: flex;
+}
+
+p{
+    font-size: 20px;
+}
+
+.resim{
+    margin: 20px;
+}
+
+.tanitim1{
+    margin-top: 40px;
+}
+
+.insta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
