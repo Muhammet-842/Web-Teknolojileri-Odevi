@@ -102,7 +102,24 @@ p{
 
 .insta{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
+    justify-content: center;
 }
+.dota2{
+    display: block;
+    width: 50%;
+    align-items: center;
+    
+}
+.gym{
+    display: block; 
+    width: 50%;
+    align-items: center;     
+} 
+
+.gym img{
+    height: 80px;
+}
+.dota2 img { margin:0 auto; }
+.gym img { margin:0 auto; }
+.insta img{margin:0 auto;} 
