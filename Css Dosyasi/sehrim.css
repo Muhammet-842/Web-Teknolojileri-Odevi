@@ -68,3 +68,75 @@ button:hover{
 .nav__links li:hover .sub-menu1 ul li{
     text-align: left;
 }
+
+.baslik{
+    text-align: center;
+    color:#FA8072;
+}
+
+.split{
+    display: flex;
+}
+
+.nufus-rakim{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration-line: underline;
+    color: #FFE4C4;
+}
+
+.nufus-rakimbilgi{
+    display: block;
+    width: 50%;
+    text-align: center;
+    color: #FFE4C4;
+}
+
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+img{
+    display: block;
+    margin-right: 10px;
+}
+.tarihce1 h2{
+    color: #006eff;
+}
+.tarihce1 p{
+    color: #edf0f1;
+    font-size: 16px;
+}
+
+section{
+    margin-top: 40px;
+}
+
+.tarihce2{
+    color: #edf0f1;
+    font-size: 16px;
+}
+
+.turistik-baslik{
+    color: #006eff;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+section h2{
+    margin-left: 200px;
+    margin-bottom: 10px;
+    color: #40E0D0;
+}
+
+.img-pamukkale img{
+    display: block;
+    max-width: 90%;
+}
+.pamukkale p{
+    color: #edf0f1;
+    font-size: 16px;
+}
