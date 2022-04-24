@@ -68,3 +68,67 @@ button:hover{
 .nav__links li:hover .sub-menu1 ul li{
     text-align: left;
 }
+
+.split{
+    display: flex;
+}
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+} 
+
+
+.baslik{
+    text-align: center;
+    color:#107805;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+
+.tarihce{
+    display: block;
+    width: 50%;
+    padding-left: 15px;
+    padding-top: 50px;
+    color:#107805;
+}
+
+.ilk-foto{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: auto;
+}
+
+.ilk-foto h3{
+    color: #107805;
+}
+.ilk-foto p{
+    color: #edf0f1;
+}
+
+.stad h2{
+    padding-top: 40px;
+    color: #107805;
+}
+
+.stad img{
+    width: 95%;
+}
+
+.outer-div{
+    background-image: url("/Resimler/Ekran\ görüntüsü\ 2022-04-24\ 175103.png");
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Kadro h2{
+    color: #107805;
+}
+
+.Kadro{
+    text-align: center;
+    background-color: #24252A;
+}
