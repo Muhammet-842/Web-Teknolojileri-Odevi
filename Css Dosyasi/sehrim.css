@@ -8,13 +8,13 @@
     background-color: #24252A;
 }
 
-li,a,button{
+ li,a,button{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #edf0f1; 
     text-decoration: none;
-}
+} 
 
 header{
     display: flex;
@@ -59,7 +59,7 @@ button:hover{
 .nav__links li:hover .sub-menu1{
     display: block;
     position: absolute;
-    margin-top: 0px;
+    padding-top: 0px;
     margin-left: -12px;
 }
 .nav__links li:hover .sub-menu1 a{
@@ -72,6 +72,8 @@ button:hover{
 .baslik{
     text-align: center;
     color:#FA8072;
+    background-attachment: fixed;
+    overflow:hidden;
 }
 
 .split{
@@ -82,7 +84,7 @@ button:hover{
     display: block;
     width: 50%;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
     text-decoration-line: underline;
     color: #FFE4C4;
 }
@@ -112,23 +114,27 @@ img{
 }
 
 section{
-    margin-top: 40px;
-}
+    padding-top: 40px;
+} 
 
 .tarihce2{
     color: #edf0f1;
     font-size: 16px;
+    background-attachment: fixed;
+    overflow:hidden;
 }
 
 .turistik-baslik{
     color: #006eff;
-    margin-top: 20px;
-    margin-left: 200px;
+    padding-top: 20px;
+    padding-left: 200px;
+    background-attachment: fixed;
+    overflow:hidden;
 }
 
 section h2{
-    margin-left: 200px;
-    margin-bottom: 10px;
+    padding-left: 200px;
+    padding-bottom: 10px;
     color: #40E0D0;
 }
 
@@ -140,3 +146,30 @@ section h2{
     color: #edf0f1;
     font-size: 16px;
 }
+
+.hierapolis p{
+    color: #edf0f1;
+    font-size: 16px;
+}
+
+.keloğlan p{
+    color: #edf0f1;
+    font-size: 16px;
+}
+
+.img-keloğlan img{
+    display: block;
+    max-width: 90%;
+}
+
+.antikHavuz p{
+    color: #edf0f1;
+    font-size: 16px;
+}
+
+.carousel-item img{
+    margin: 0 auto;
+}
+
+
+
