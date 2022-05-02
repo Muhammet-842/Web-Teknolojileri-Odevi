@@ -68,3 +68,35 @@ button:hover{
 .nav__links li:hover .sub-menu1 ul li{
     text-align: left;
 }
+
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    background-color: #24252A;
+    
+} 
+
+.split{
+    display: flex;
+}
+
+.baslik{
+    text-align: center;
+    color:#FA8072;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+
+.egitim h2{
+    color:#FA8072;
+}
+
+.egitim img{
+    width: 95%;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+
+body{
+    background-color: #24252A;
+}

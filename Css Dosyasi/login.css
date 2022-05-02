@@ -1,0 +1,12 @@
+.bg-image{
+    background-image: url(/Resimler/1153480.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-primary{
+    background-color: #f57812
+    ;
+} 
