@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: black;
 }
 
 li,a,button{
@@ -21,6 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    opacity: 0.9;
 }
 
 .nav__links{
@@ -67,4 +68,26 @@ button:hover{
 }
 .nav__links li:hover .sub-menu1 ul li{
     text-align: left;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.container{
+    background-color: black;
+    color: #edf0f1;
+    background-attachment: fixed;
+    overflow:hidden;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+.bg-image{
+    background-image: url(/Resimler/Ekran\ görüntüsü\ 2022-05-06\ 175008.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

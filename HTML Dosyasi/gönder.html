@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesajlar</title>
+</head>
+<body>
+    <h1>Mesajlar</h1>
+
+    <h2>
+        Email:  <span id="gönderen-email"></span>
+    </h2>
+
+    <h2>
+        Ad:  <span id="gönderen-ad"></span>
+    </h2>
+
+    <h2>
+        Soyad:  <span id="gönderen-soyad"></span>
+    </h2>
+
+    <h2>
+        Mesaj:  <span id="gönderen-mesaj"></span>
+    </h2>
+
+
+   <script>
+       document.getElementById('gönderen-email').innerHTML= localStorage.getItem('EMAIL');
+       document.getElementById('gönderen-ad').innerHTML= localStorage.getItem('NAME');
+       document.getElementById('gönderen-soyad').innerHTML = localStorage.getItem('SURNAME');
+       document.getElementById('gönderen-mesaj').innerHTML = localStorage.getItem('MESSAGE');
+
+   </script> 
+</body>
+</html>
