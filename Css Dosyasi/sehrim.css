@@ -172,3 +172,9 @@ section h2{
     width: 50%;
    margin: auto;
 }
+
+.carousel-inner{
+    width: 70%;
+    margin: 10%;
+    left: 6%;
+}
